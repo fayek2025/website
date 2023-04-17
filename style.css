@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lobster&family=Montserrat:wght@600&display=swap');
+
+
+
+
+
+
+
+#title{
+    
+    font-family: "Montserrat" , sans-serif;
+    
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.nav-link{
+    color: rgb(244, 92, 66);
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0 25px;
+    
+}
+
+.navbar-brand{
+    color: rgb(228, 89, 101);
+    
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+.bg-image {
+    background-image: url("artur-kulagin-NjQmytqwDGs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0 0;
+    
+  }
+
+  h1{
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 50px;
+    padding-top: 30%;
+  }
+
+.hover-overlay{
+    transition: 3s;
+}
+
+.img-fluid{
+    width: 75%;
+    height: auto;
+    display: block;
+}
+.end {
+    padding: 20% 0%;
+    
+
+}
+
+.heading{
+    padding: 3% 0%;
+}
+
+h2{
+    font-family: "Cinzel Decorative" , serif;
+    padding: 5% 0%;
+}
+
+.img-fluid:hover{
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
+}
+
+/* testimonial */
+
+#testimonial{
+    padding: 5% 15%;
+    background-color: rgb(19, 31, 42);
+    text-align: center;
+    color: #fff;
+
+}
+
+.carousel-item{
+    padding: 3% 15%;
+}
+
+
+.testimonial-image{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px;
+}
+
+#footer .container-fluid{
+    padding: 5% 15%;
+
+}
+
+#footer{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.icon{
+    padding: 3% 3%;
+    color: rgb(60, 100, 100);
+    transition: 0.5s;
+}
+.icon:hover{
+    color: blueviolet;
+}
+#footer p{
+    padding: 3% 3%;
+}
